@@ -1,4 +1,6 @@
-#Nossa IYAMU, Louis SIMONimport numpy as np
+#Nossa IYAMU, Louis SIMON
+
+import numpy as np
 
 #EXERCICE 1
 
@@ -34,7 +36,6 @@ def simuX(v, s, r):
 
 def optionAsia(v, s, r):
     samples = 10000
-    T = 10
     asian_options = np.zeros(samples)
     
     for i in range(samples):
